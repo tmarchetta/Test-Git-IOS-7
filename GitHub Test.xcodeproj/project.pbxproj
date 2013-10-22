@@ -21,6 +21,7 @@
 		BEDF930C1816DF090077C1CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDF92EE1816DF090077C1CF /* UIKit.framework */; };
 		BEDF93141816DF090077C1CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEDF93121816DF090077C1CF /* InfoPlist.strings */; };
 		BEDF93161816DF090077C1CF /* GitHub_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDF93151816DF090077C1CF /* GitHub_TestTests.m */; };
+		BEDF93211816E32D0077C1CF /* TMSTester.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDF93201816E32D0077C1CF /* TMSTester.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		BEDF93111816DF090077C1CF /* GitHub TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitHub TestTests-Info.plist"; sourceTree = "<group>"; };
 		BEDF93131816DF090077C1CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BEDF93151816DF090077C1CF /* GitHub_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHub_TestTests.m; sourceTree = "<group>"; };
+		BEDF931F1816E32D0077C1CF /* TMSTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSTester.h; sourceTree = "<group>"; };
+		BEDF93201816E32D0077C1CF /* TMSTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSTester.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				BEDF93001816DF090077C1CF /* TMSViewController.m */,
 				BEDF93021816DF090077C1CF /* Images.xcassets */,
 				BEDF92F11816DF090077C1CF /* Supporting Files */,
+				BEDF931F1816E32D0077C1CF /* TMSTester.h */,
+				BEDF93201816E32D0077C1CF /* TMSTester.m */,
 			);
 			path = "GitHub Test";
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEDF92F71816DF090077C1CF /* main.m in Sources */,
+				BEDF93211816E32D0077C1CF /* TMSTester.m in Sources */,
 				BEDF92FB1816DF090077C1CF /* TMSAppDelegate.m in Sources */,
 				BEDF93011816DF090077C1CF /* TMSViewController.m in Sources */,
 			);
